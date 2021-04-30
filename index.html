@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html class="html">
+<head>  
+    <title>ShoopOn</title>
+    <meta charset="utf-8">
+    <meta name="opis" content="spletna trgovina za vso družino in vse letne čase vam na razpolago vse dni v letu">
+    <meta name="author" content="Gregor Vrtič 35200098"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./CSS/body.css">
+
+ </head>    
+
+
+
+<body class="body">
+    <script src="./JS/index.js"></script>
+
+    <form class="login" action="action_page.php" method="post">
+        <div class="verz"> Življenje je pot, ne cilj...    </div>
+             <img id="ram" src="images/ram.svg" alt="firm_logo">
+        
+      
+        <div>
+          <label for="ime"><b>Ime</b></label>
+          <input type="text" placeholder="Vnesite uporabniško ime" name="ime" id="ime" required>
+         <label for="geslo"><b>Geslo</b></label>
+          <input type="password" placeholder="Vnesite geslo" name="geslo" id="geslo" required>
+         <button type="submit">Prijava</button name="" value="Prijava" onklick="validate()">
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Zapomni se me
+          </label>
+        </div>
+      
+        <div >
+          <button type="button" class="cancelbtn">Prekliči</button>
+          <span class="psw">Pozabljeno <a href="#">Geslo???</a></span>
+        </div>
+      </form>
+
+
+       <a class="vrh" href="#kontatniobrazec"> Shoop.ON </a> <br>
+       <a class="vrh"> tel:+386/000000000 </a>
+      
+
+       <div class="dobrodosli"> <h1 class="h1"> 
+        Dobrodošli na naši strani
+           </h1>
+        <h4 class="h4">Veseli nas, da ste se odločili nakupovati pri nas</h4>
+        </div>
+
+        
+        <nav class="Meni" id="glavniMeni"> 
+             <table class="glavnatabela">
+            
+                  <tr class="izberniMeni">
+              <div >
+                    <div class="row">     
+                <td>MOŠKI: 
+                    <select name="IzborArtiklov" id="">
+                    <option value="1">ZIMA</option>  
+                    <option value="POMLAD">POMLAD</option>
+                    <option value="POLETJE">POLETJE</option>
+                    <option value="JESEN">JESEN</option>
+                    <option id="akcija" value="AKCIJE">AKCIJE</option>
+                    </select>      
+              
+                    <td>ŽENSKE:
+                        <select name="IzborArtiklov" id="">
+                            <option value="3">ZIMA</option>
+                            <option value="POMLAD">POMLAD</option>
+                            <option value="POLETJE">POLETJE</option>
+                            <option value="JESEN">JESEN</option>
+                            <option id="akcija" value="AKCIJE">AKCIJE</option>
+                            </select>
+                        </td>
+
+                <td>OTROCI:
+                    <select name="IzborArtiklov" id="">
+                        <option value="3">ZIMA</option>
+                        <option value="POMLAD">POMLAD</option>
+                        <option value="POLETJE">POLETJE</option>
+                        <option value="JESEN">JESEN</option>
+                        <option id="akcija" value="AKCIJE">AKCIJE</option>
+                        </select>
+                    </td>
+              <td>DOJENČKI:
+                     <select name="IzborArtiklov" id="">
+                     <option value="4">ZIMA</option>
+                     <option value="POMLAD">POMLAD</option>
+                     <option value="POLETJE">POLETJE</option>
+                     <option value="JESEN">JESEN</option>
+                     <option id="akcija" value="AKCIJE">AKCIJE</option>
+                     </select>
+                    </td>
+                
+              <td>DARILA <br> IN BONI:
+                <select name="IzborArtiklov" id="">
+                    <option value="5">ZIMA</option>                 
+                    <option value="POMLAD">POMLAD</option>
+                    <option value="POLETJE">POLETJE</option>
+                    <option value="JESEN">JESEN</option>
+                    <option id="akcija" value="AKCIJE">AKCIJE</option>
+                     </select>
+                </td>
+                <td>OUTLET%:
+                    <select name="IzborArtiklov" id="">
+                    <option value="6">ZIMA</option>
+                    <option value="POMLAD">POMLAD</option>
+                    <option value="POLETJE">POLETJE</option>
+                    <option value="JESEN">JESEN</option>
+                    <option id="akcija" value="AKCIJE">AKCIJE</option>
+                    </select>
+                </td>
+                </div>
+                         
+             </tr>
+          </table>
+        </nav>
+
+
+
+
+
+
+     <div>
+        
+                
+            <div class="ozadje" >
+         <div class="nagovor1">
+          <p>Smo mlado podjetje, katero se z modnimi oblačili iz kakovostnega materiala trudi, da bodo vaši izleti in potovanja v naših oblačilih čim bolj sproščena.</p>
+            
+              
+         <p>Artikle v vaši košarici, bomo dostavili v najkrajšem možnem času. Sledite nam lahko na Facebook strani do katere pridete s spodnjo povezavo. Priporočamo vam, da 
+                se naročite na obveščanje o naših novosti in dogodkih. 
+            </p><br><br><br><br><br><br><br>
+            <a href="www.facebook.com">Shoop.ON Facebook</a>
+                </div>
+        </div>
+        
+        
+</body>
+
+
+
+
+
+
+
+<footer class="footer">
+    <div>
+    <section id="kontatniobrazec">
+    <div class="kontakt">
+    <h2>Stopite z nami v stik</h2>
+    <h4 class="h4k">Za zamenjavo artiklov ali druga vprašanja nas kontaktirajte preko spodnjega obrazca</h4>
+    </div>
+    </section>
+    
+    <div class="obrazec">
+    <form action="kontaktni obrazec" method="POST" accept-charset="utf-8">
+        <div class="podatki strank">
+            <label for="FirstLastName" class="required">
+                "Ime in Priimek"
+            </label>
+            <input type="text", name="FirstLastName" value id="FirstLastName" required="required" class="form-control">
+            </div>
+            <div class="phone">
+            <label for="Phone" class="required">"Telefon"</label>
+            <input type="text" name="phone" value id="phone" required="required" class="form-control">
+            </div>
+            <div class="podjetje">
+                <label for="podjetje">"podjetje"</label>
+                <input type="text" name="podjetje" value id="podjetje" required="required" class="form-control">
+           </div>
+           <div class="vprasanja">
+               <textarea name="sporocilo"></textarea>
+
+           </div>
+           <div class=potrdi>
+           <input type="submit" name="submit" value="ODDAJ POVPRAŠEVANJE"><br>
+           </div>
+    </form>
+ </div>
+
+  <summary class="summary"> - Shoop.ON <br>- Deloviška cesta 27 <br>- 6310 Portorož <br>
+  </summary>
+  
+  </footer>
+  <div class="id">ID student = 35200098</div>
+
+
+
+
+
+
+</html>

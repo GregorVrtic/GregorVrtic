@@ -1,0 +1,197 @@
+.body {
+    background-color: rgb(174, 188, 226);
+    color: rgb(36, 37, 35); 
+    height: 100%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: fit-content;
+    border: 5px dashed rgb(102, 118, 136);
+
+}
+
+.html {
+    background-image: url(https://img.etimg.com/thumb/width-1200,height-900,imgsize-920116,resizemode-1,msid-66950888/magazines/travel/wish-to-enjoy-a-spectacular-sunrise-sunset-well-tell-you-where-to-go.jpg);
+    font-size: 22px;
+    background-size: cover;
+}
+
+.testtest {
+    background-image: url();
+    color: black;
+   object-fit: cover;
+   width: 100%;
+   height: 450px;
+  
+}
+
+.imgcontainer {
+    align-self: auto;
+    background: rgb(136, 123, 98);
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+  
+  }
+
+  .dobrodosli {
+      background-image: url(https://static.posters.cz/image/1300/fototapete/above-the-clouds-sky-416x254-cm-premium-non-woven-130gsm-i77999.jpg);
+  }
+
+.vrh {
+        margin-left: 85%;
+}
+
+.shoop {
+    align-self: auto;
+    size: 30px;
+     margin-left: 300px;
+     height: auto;
+     width: auto;
+     margin-top: 1%;
+     margin-left: 1%;
+     margin-right: 1%;
+    
+}
+
+.login {
+    border: 22px black;
+    height: auto;
+     width: auto;
+     margin-top: 1%;
+     margin-left: 1%;
+     margin-right: 1%;
+
+}
+
+.verz {
+    font-style: oblique;
+    size: 12px;
+    margin-left: 80%;
+}
+
+#ram {
+    margin-top: -3%;
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+}
+
+.glavnatabela {
+    align-self: auto;
+    background-image: url(https://static.posters.cz/image/1300/fototapete/above-the-clouds-sky-416x254-cm-premium-non-woven-130gsm-i77999.jpg);
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin-left: 140px;
+    margin-top: -20px;
+    border-style: double solid;
+    margin-top: -1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+}
+
+.linkkontakt {
+    text-shadow: dimgray;
+    font-style: italic;
+    margin-left: 950px;
+    height: auto;
+     width: auto;
+     margin-top: 1%;
+     margin-left: 1%;
+     margin-right: 1%;
+}
+
+#tel { font-style: italic;
+    margin-left: 950px;
+    color: dodgerblue;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+}
+
+
+.Meni {
+    flex-direction: row;
+    height: auto;
+     width: auto;
+     margin-top: 1%;
+     margin-left: 1%;
+     margin-right: 1%;
+}
+
+.row {
+    margin-left: 200px;
+    height: auto;
+     width: auto;
+     margin-top: 1%;
+     margin-left: 1%;
+     margin-right: 1%;
+}
+
+.h1 {
+    align-self: auto;
+    font-style: italic;
+    text-shadow: 1cm;
+    font-size: 45px;
+    color: rgb(32, 29, 27);
+    margin-bottom: -20px;
+    height: auto;
+     width: auto;
+      margin-left: 1%;
+     margin-right: 1%;
+    
+
+}
+
+.h4 { align-self: auto;
+    text-shadow: 1cm;
+    font-style: italic;
+    color: rgb(78, 66, 58);
+    height: auto;
+     width: auto;
+     margin-left: 1%;
+     margin-right: 1%;
+}
+
+.ozadje {
+background-image: url("https://www.visit-postojna.si/si/imagelib/source/default/OE_Turizem/FOTO/Mestni_park/Mestni_park_VPanorama_Ivan_Majc.jpg");
+text-align: left;
+width: fit-content;
+max-height: 560px;
+font-style: italic;
+font-style: bold;
+
+}
+
+
+.kontakt {
+    padding: 0;
+    margin: 0;
+    color: rgb(45, 22, 145);
+    position: relative;
+    margin-left: 40%;
+    
+}
+
+.obrazec {
+    position: relative;
+    margin-left: 40%;
+    font-style: italic;
+}
+
+
+.h4k {
+    margin-top: -20px;
+}
+
+
+.footer {
+margin-top: 5%;
+
+}
+
+.id {
+    margin-left: 88%;
+}
